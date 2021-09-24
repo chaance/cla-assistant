@@ -46,7 +46,7 @@ module.exports = {
     },
 
     createPR: function (I, owner, repo) {
-        I.amOnPage(`https://github.com/${owner}/${repo}/blob/master/README.md`)
+        I.amOnPage(`https://github.com/${owner}/${repo}/blob/main/README.md`)
         I.waitForEnabled('//button[starts-with(@aria-label, "Edit the file") or starts-with(@aria-label, "Fork this project")]', 5)
         I.click('//button[starts-with(@aria-label, "Edit the file") or starts-with(@aria-label, "Fork this project")]') //click ~Fork this project and edit the file
 

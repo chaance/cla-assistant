@@ -14,9 +14,9 @@
     "license": "Apache-2.0",
     "repository": {
         "type": "git",
-        "url": "https://github.com/cla-assistant/cla-assistant"
+        "url": "https://github.com/chaance/cla-assistant"
     },
-    "bugs": "https://github.com/cla-assistant/cla-assistant/issues",
+    "bugs": "https://github.com/chaance/cla-assistant/issues",
     "contributors": [],
     "dependencies": {
         "@google-cloud/trace-agent": "^5.1.5",

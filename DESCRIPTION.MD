@@ -20,7 +20,7 @@ To get started, simply store your CLA as a [GitHub Gist file](https://gist.githu
 Repository owners can review a list of users who signed the CLA for each version of it. To get started, visit https://cla-assistant.io.
 
 ### Contacts
-If you have questions, please [open an issue in the cla-assistant repository](https://github.com/cla-assistant/cla-assistant/issues/new).
+If you have questions, please [open an issue in the cla-assistant repository](https://github.com/chaance/cla-assistant/issues/new).
 
 If you want to reach out directly, please email [ospo@sap.com](mailto:ospo@sap.com).
 

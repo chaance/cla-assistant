@@ -1,6 +1,6 @@
 [![CLA assistant](https://cla-assistant.io/readme/badge/cla-assistant/cla-assistant)](https://cla-assistant.io/cla-assistant/cla-assistant) [![Build Status](https://travis-ci.org/cla-assistant/cla-assistant.svg?branch=master)](https://travis-ci.org/cla-assistant/cla-assistant) [![Dependency Status](https://david-dm.org/cla-assistant/cla-assistant.svg)](https://david-dm.org/cla-assistant/cla-assistant) [![devDependency Status](https://david-dm.org/cla-assistant/cla-assistant/dev-status.svg)](https://david-dm.org/cla-assistant/cla-assistant#info=devDependencies) [![Coverage Status](https://img.shields.io/coveralls/cla-assistant/cla-assistant.svg)](https://coveralls.io/r/cla-assistant/cla-assistant) [![Code Climate](https://codeclimate.com/github/cla-assistant/cla-assistant/badges/gpa.svg)](https://codeclimate.com/github/cla-assistant/cla-assistant)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/1583/badge)](https://bestpractices.coreinfrastructure.org/projects/1583)
-[![Build Status](https://github.com/ibakshay/cla-assistant/workflows/CI/CDPipeline/badge.svg)](https://github.com/cla-assistant/cla-assistant/actions)
+[![Build Status](https://github.com/chaance/cla-assistant/workflows/CI/CDPipeline/badge.svg)](https://github.com/chaance/cla-assistant/actions)
 
 # Contributor License Agreement (CLA) assistant
 
@@ -74,7 +74,7 @@ The possible values for the "githubKey"-property can be found in the [GitHub-API
 
 ## FAQ
 #### Where is the list of signees stored?
-Since 27.08.2021 all data is stored in a cosmosDB (mongoDB compatible) hosted on Microsoft Azure in Europe ([#740](https://github.com/cla-assistant/cla-assistant/issues/740)).
+Since 27.08.2021 all data is stored in a cosmosDB (mongoDB compatible) hosted on Microsoft Azure in Europe ([#740](https://github.com/chaance/cla-assistant/issues/740)).
 Before that all the data was stored in a MongoDB hosted by [mLab](https://mlab.com/).
 
 #### Where can I see the list of signees? Is there a way to import/export the signee data?
@@ -84,10 +84,10 @@ You can see the list of signees on the user interface. There is also a possibili
 We're no lawyers, but we can suggest using http://contributoragreements.org/ for a fill-in-the-blank approach to creating a CLA tailored to your needs.
 
 #### Who can I contact for help?
-In case of problems or any further questions, please check our [general trouble shooting issue](https://github.com/cla-assistant/cla-assistant/issues/567) or [open an issue](https://github.com/cla-assistant/cla-assistant/issues/new). We always appreciate helpful tips and support for the project.
+In case of problems or any further questions, please check our [general trouble shooting issue](https://github.com/chaance/cla-assistant/issues/567) or [open an issue](https://github.com/chaance/cla-assistant/issues/new). We always appreciate helpful tips and support for the project.
 
 #### How can I contribute?
-You want to contribute to CLA Assistant? Welcome! Please read [here](https://github.com/cla-assistant/cla-assistant/blob/master/CONTRIBUTING.md).
+You want to contribute to CLA Assistant? Welcome! Please read [here](https://github.com/chaance/cla-assistant/blob/main/CONTRIBUTING.md).
 
 #### Can I allow bot user contributions?
 Since there's no way for bot users (such as Dependabot or Greenkeeper) to sign a CLA, you may want to allow their contributions without it. You can do so by importing their names (in this case `dependabot[bot]` and `greenkeeper[bot]`) in the CLA assistant dashboard.
@@ -97,7 +97,7 @@ Since there's no way for bot users (such as Dependabot or Greenkeeper) to sign a
 Clone this repository, change into the cloned directory and install dependencies.
 
 ```sh
-git clone https://github.com/cla-assistant/cla-assistant
+git clone https://github.com/chaance/cla-assistant
 cd ./cla-assistant
 npm install
 ```
@@ -170,7 +170,7 @@ npm start
 To get a CLA assistant instance quickly up you can as well use Docker compose:
 
 ```sh
-git clone https://github.com/cla-assistant/cla-assistant
+git clone https://github.com/chaance/cla-assistant
 cd ./cla-assistant
 
 cp .env.example .env
